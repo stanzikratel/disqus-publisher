@@ -8,7 +8,7 @@ var addDocumentToIndex = function (client, index, type, id, body, context, cbJob
 	try {
 		client.index({
 			index: index,
-			requestTimeout: 30000,
+			requestTimeout: 300000,
 			type: type,
 			id: id,
 			body: body
