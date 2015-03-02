@@ -1,0 +1,20 @@
+{
+  "name": "disqus-publisher",
+  "version": "0.1.0",
+  "description": "Node Module and CLI for publishing Disqus export files to ElasticSearch",
+  "author": "Constanze Kratel <constanze.kratel@rackspace.com>",
+  "bin": {
+    "disqus-publisher": "./bin/disqus-publisher.js"
+  },
+  "scripts": {
+  },
+  "main": "index.js",
+  "keywords": [
+    "cli",
+    "disqus",
+    "publishing",
+    "elasticsearch"
+  ],
+  "dependencies": {
+  }
+}
